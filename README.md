@@ -1,24 +1,30 @@
-# budgeter
+# Start Budgeter.
+```
+git clone https://github.com/osama0001/budgeter.git
+```
+# get inside the project
 
-## Project setup
+# install the required packages
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+# start the app on http://localhost:8080
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+# get into node server
 ```
-npm run build
+cd src/server
 ```
-
-### Lints and fixes files
+# add required packages
 ```
-npm run lint
+npm install
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# start database
+```
+mongo
+```
+# Start node server
+```
+nodemon
+```
